@@ -1,0 +1,73 @@
+
+h1{
+color:orange;
+text-align:center;
+font-family:arial;
+}
+P{
+text-align:center;
+color:orange;
+}
+#demo{
+color:blue;
+}
+body{
+font-family:arial;
+}
+li{
+display:flex;
+}
+body{
+background:url("file:///C:/Users/Eche%20King/Pictures/sxs%20logo.png");
+background-repeat:no-repeat;
+background-position:center;
+background-size:cover;
+}
+.form{
+background-image: url("file:///C:/Users/Eche%20King/Pictures/sxs%20logo.png");
+background-position: center;
+height:350px;
+width:450px;
+border-radius:5px;
+margin-left:410px;
+}
+input{
+border-radius:5px;
+border-color:black	;
+height:30px;
+}
+label{
+margin-left:50px;
+}
+a{
+color:orange;
+font-size:bold;
+text-decoration:none;
+}
+span{
+color:orange;
+margin-left:430px;
+}
+#a{
+    margin-left: 700px;
+}
+@media (max-width:414px){
+    .form{
+        margin-left:0px;
+        width: 400px;
+    }
+    span{
+        margin-left: 0px;
+        color: orange;
+    }
+    #a{
+        margin-left: 25px;
+        color: brown;
+    }
+    a{
+        font-size: small;
+    }
+    h1{
+        font-size: medium;
+    }
+}

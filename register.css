@@ -1,0 +1,81 @@
+h1{
+    color:orange;
+    text-align:center;
+    font-family:arial;
+    }
+    P{
+    text-align:center;
+    color:orange;
+    }
+    #demo{
+    color:blue;
+    }
+    body{
+    font-family:arial;
+    }
+    li{
+    display:flex;
+    }
+    body{
+    background:url("file:///C:/Users/Eche%20King/Pictures/sxs%20logo.png");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    }
+    .form{
+    background-color:orchid;
+    height:350px;
+    width:450px;
+    border-radius:5px;
+    margin-left:400px;
+    }
+    #form{
+        margin-left: 350px;
+        width: 500px;
+        height: 300px;
+        background-color: red;
+        background-image: url("file:///C:/Users/Eche%20King/Pictures/sxs%20logo.png");
+        background-position: center;
+        color: black;
+    }
+    input{
+    border-radius:5px;
+    }
+    label{
+    margin-left:50px;
+    color: black;
+    }
+    a{
+    color:orange;
+    font-size:bold;
+    text-decoration:none;
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
+    cursor: pointer;
+    }
+    a:hover{
+        background-image:url("file:///C:/Users/Eche%20King/Pictures/download-11.jpg") ;
+    }
+    div{
+    height:500px;
+    width:400px;
+    background:url("file:///C:/Users/Eche%20King/Downloads/Screenshot_20240705-043552_2.png");
+    background-repeat:no-repeat;
+    margin-left:430px;
+    border-radius:20px;
+    }
+    label{
+    color:black;
+    }
+    input{
+    height:20px;
+    }
+    @media (max-width:414px){
+        h1{
+            font-size: medium;
+        }
+        #form{
+            width:400px;
+            margin-left: 0px;
+        }
+    }

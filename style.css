@@ -1,0 +1,115 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url("file:///C:/Users/Eche%20King/Pictures/sxs%20logo.png");
+    background-position:buttom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: arial;
+}
+#head{
+    font-family: arial;
+    color: orange;
+    margin-left: 330px;  
+}
+h1{
+    font-family: arial;
+    color: orange;
+    margin-left: 500px;
+}
+#sxs{
+    width: 50px;
+    height: 50px;
+}
+#img{
+    display: flex;
+}
+.ads{
+    animation-name: myAnimation;
+    animation-duration: 3s;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+    background-size: 550px;
+}
+@keyframes myAnimation {
+    from{
+        left: 0px;
+        backround-color:purple ;
+        color: orange;
+    }
+    to{
+        right:0px;
+        background-color: red;
+        color: purple;
+    }
+}
+#aim{
+    color: orange;
+    font-family: arial;
+    text-align: center;
+}
+button{
+background-color: orange;
+border-style: hidden;
+border-radius: 50px;
+font-weight:bolder ;
+color: white;
+height: 100px;
+width: 250px;
+-webkit-transition-duration: 1s;
+transition-duration: 1s;
+cursor:pointer;
+}
+button:hover{
+    background-color: transparent;
+    color: orange;
+}
+a{
+    text-decoration: none;
+    color: orange;
+    margin-left: 10px;
+    font-weight: bolder;
+}
+img{
+    width: 1245px;
+    height: 900px;
+}
+#main{
+    background-color:white;
+    padding: 0px;
+    margin:0px;
+    width: 1300px;
+}
+#home{
+    margin-left:690px;
+}
+@media (max-width:414px) {
+    img{
+        width: 410px;
+        height: 300px;
+    }
+    h1{
+        margin-left: 30px;
+    }
+    #head{
+        margin-left: 50px;
+        font-size: 15px;
+    }
+    #aim{
+        margin-left: 30px;
+    }
+    button{
+        height: 50px;
+        width: 70px;
+        border-radius: 15px;
+        margin-left: 5px;
+    }
+    #main{
+        width: 410px;
+    }
+    #home{
+        margin-left: 15px;
+    }
+}
